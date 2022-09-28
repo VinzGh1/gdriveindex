@@ -7,7 +7,7 @@ const clientId = '';
 const clientSecret = '';
 const grantType = 'authorization_code';
 const redirectURI = 'https://example.com';
-const jsURL = 'https://raw.githubusercontent.com/VinzGh1/gdriveindex/master/worker/worker-super.js';
+const jsURL = 'https://gitlab.com/GoogleDriveIndex/Google-Drive-Index/-/raw/master/worker/worker-super.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
