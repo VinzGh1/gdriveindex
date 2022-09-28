@@ -1,0 +1,22 @@
+{
+  "name": "vinzzindex",
+  "version": "2.2.3",
+  "description": "A Google Drive Index to List, Watch and Download Files using a Beautiful UI.",
+  "main": "README.md",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/VinzGh1/Google-Drive-Index.git"
+  },
+  "keywords": [
+    "bhadoo"
+  ],
+  "author": "bhadoo index",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/VinzGh1/Google-Drive-Index/issues"
+  },
+  "homepage": "https://gitlab.com/VinzGh1/Google-Drive-Index#readme"
+}
