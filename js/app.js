@@ -60,7 +60,7 @@ function init() {
         color: #ffffff; 
         line-height:1.2; 
         letter-spacing: normal;">Jumlah File: 22939</p>
-  <p class="copyright">© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a></p> </div> </footer>
+  <p class="copyright">© ${UI.copyright_year} - <a class="copyright-links" href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a></p> </div> </footer>
   `;
     $('body').html(html);
 }
