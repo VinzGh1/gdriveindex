@@ -6,6 +6,8 @@ function init() {
     var html = `<header>
    <div id="nav">
    </div>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 </header>
 <div>
 <div id="content" style="padding-top: ${UI.header_padding}px;${UI.fixed_footer ?' padding-bottom: clamp(170px, 100%, 300px);': ''}">
@@ -28,6 +30,14 @@ function init() {
 </div>
 <br>
 <footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="${UI.fixed_footer ?'position: fixed; ': ''}left: 0; bottom: 0; width: 100%; text-align: center; color: white; z-index: 9999;${UI.hide_footer ? ' display:none;': ' display:block;'}"> <div class="container" style="width: auto; padding: 0 10px;"> ${UI.credit ? '<h1 style="font-family: Montserrat; font-weight: 700; font-size:18px; color: white; letter-spacing: normal; line-height: 1.3;">SUPPORT</h1>' : ''}<a href="https://t.me/synerize" target="_blank"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://www.facebook.com/kazu.miteku.1" target="_blank"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
+<p style="margin-top: 10px; 
+        font-size: 15px; 
+        font-family:'Montserrat', sans-serif; 
+        font-weight:500; 
+        color: #ffffff; 
+        line-height:1.2; 
+        letter-spacing: normal;">Jumlah File: 22939</p>
   <p>© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a></p> </div> </footer>
   `;
     $('body').html(html);
@@ -952,8 +962,6 @@ function file_code(path) {
                 var size = formatFileSize(obj.size);
                 var content = `
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-twilight.css" integrity="sha256-Rl83wx+fN2p2ioYpdvpWxuhAbxj+/7IwaZrKQBu/KQE=" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap" rel="stylesheet">
- <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 <div class="container"><br>
 <div class="card text-center">
 <div class="card-body text-center">
